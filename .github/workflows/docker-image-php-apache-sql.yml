@@ -23,8 +23,8 @@ jobs:
       - name: Build and push
         uses: docker/build-push-action@v2
         with:
-          context: DockerImage-php-apache-sql
-          file: DockerImage-php-apache-sql/Dockerfile
+          context: ./
+          file: .//Dockerfile
           platforms: linux/arm64/v8,linux/amd64,linux/arm/v7
           push: true
           tags: thorved/php-apache-sql:latest
