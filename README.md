@@ -97,5 +97,3 @@ If you encounter any issues or have questions, please open an issue in this repo
 ## License
 
 This project is licensed under the MIT License.
-
-Hope this README gives a clear guide on using your Docker image! Let me know if you want any additional information included.
